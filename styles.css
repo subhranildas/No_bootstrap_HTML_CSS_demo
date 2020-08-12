@@ -1,0 +1,150 @@
+/* 
+Universal declaration starts here
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+Universal CSS decleration ends here
+*/
+
+/* 
+Navbar and poster section starts here
+*/
+
+.navbar_poster_section {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./images/pi.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-bottom: 0vh;
+  border-width: 0vh;
+}
+
+.navbar {
+  margin: 0vh 0vw;
+  background: linear-gradient(95deg, black, rgb(47, 47, 70), rgb(51, 117, 77));
+  padding: 1vh 1vw;
+}
+
+.navbar-heading {
+  display: inline;
+  color: rgba(255, 255, 255, 0.705);
+  font-family: "Comic Neue", cursive;
+}
+
+.butt {
+  background-color: rgb(121, 173, 17);
+  border-radius: none;
+  border-width: 2px;
+  border-color: rgb(121, 173, 17);
+  color: rgba(255, 255, 255, 0.664);
+  padding: 1vh 1vw;
+  margin-left: none;
+}
+.butt:hover {
+  border-color: white;
+  color: white;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgba(240, 248, 255, 0.733);
+}
+
+.introduction_block {
+  background: center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.intro_heading {
+  color: white;
+  font-size: 3.5rem;
+  border-style: groove;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  margin-top: 25vh;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  margin-bottom: 5vh;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.intro_desc {
+  color: rgb(255, 184, 53);
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+.intro_butt {
+  font-size: 1rem;
+  background-color: rgba(255, 217, 0, 0.8);
+  color: black;
+  border-radius: 10px;
+  border-color: black;
+  border-spacing: 1vh;
+  padding: 1.5vh;
+  margin-top: 1vh;
+  font-weight: bold;
+}
+.intro_butt:hover {
+  border-color: gold;
+  color: gold;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+/* 
+Navbar poster section ends here
+*/
+
+/* 
+2nd section of the website starts here
+*/
+
+.anotherdiv {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
+    url(./images/pi.jpg);
+
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.anotherh1 {
+  text-align: center;
+  font-size: 40px;
+  color: orange;
+}
+
+/* 2nd section of the website ends here */
+
+.page_bottom {
+  background: linear-gradient(90deg, black, rgb(52, 90, 71));
+  text-align: center;
+}
+
+.backtotop {
+  margin-left: 85vw;
+
+  font-size: 1rem;
+  background-color: rgba(255, 217, 0, 0.8);
+  color: black;
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+}
